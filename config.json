@@ -1,0 +1,38 @@
+{
+  "capital": 75000,
+  "paper_strategies": [
+    "breakout_fade",
+    "momentum_intraday"
+  ],
+  "positions": 5,
+  "stop_pct": {
+    "default": 0.015,
+    "momentum_fade": 0.05,
+    "breakout_fade": 0.05,
+    "attention_fade": 0.05
+  },
+  "universe_size": 100,
+  "min_price": 50,
+  "paper_start": "2026-11-16",
+  "costs": {
+    "brokerage_pct_intraday": 0.0003,
+    "brokerage_cap": 20.0,
+    "brokerage_pct_delivery": 0.0,
+    "stt_intraday_sell": 0.00025,
+    "stt_delivery": 0.001,
+    "exch_txn": 3.07e-05,
+    "sebi": 1e-06,
+    "stamp_intraday_buy": 3e-05,
+    "stamp_delivery_buy": 0.00015,
+    "gst": 0.18,
+    "dp_charge_per_sell": 14.75,
+    "slippage": 0.0005
+  },
+  "go_live_gate": {
+    "min_sessions": 60,
+    "min_profit_factor": 1.2,
+    "max_drawdown": 0.1,
+    "must_beat_benchmark": true
+  },
+  "pause_drawdown": 0.08
+}
