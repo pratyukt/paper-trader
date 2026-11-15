@@ -1,0 +1,130 @@
+{
+ "generated_at": "2026-11-16 03:57 IST",
+ "data_through": "2026-11-13",
+ "next_session": "2026-11-16",
+ "paper_start": "2026-11-16",
+ "capital": 75000.0,
+ "status": "OK",
+ "checks": [
+  {
+   "level": "ok",
+   "text": "Price history: history refreshed."
+  },
+  {
+   "level": "ok",
+   "text": "Data is current: last session on file is Fri 13 Nov 2026."
+  }
+ ],
+ "accounts": {
+  "breakout_fade": {
+   "plain": "Stocks that closed at a 20-day high on 1.5x volume; sell short at the open, buy back at the close.",
+   "stop_pct": 0.05,
+   "summary": {
+    "days": 0
+   },
+   "last_day_return": null,
+   "equity": [],
+   "trades": [],
+   "last_trade_date": null,
+   "last_trades": [],
+   "pending": [
+    {
+     "symbol": "APOLLO",
+     "ref_close": 475.6,
+     "alloc": 15000.0,
+     "est_qty": 31
+    },
+    {
+     "symbol": "GVT&D",
+     "ref_close": 4420.0,
+     "alloc": 15000.0,
+     "est_qty": 3
+    },
+    {
+     "symbol": "MEESHO",
+     "ref_close": 257.07,
+     "alloc": 15000.0,
+     "est_qty": 58
+    }
+   ],
+   "open_positions": []
+  },
+  "momentum_intraday": {
+   "plain": "Strongest 20-day movers above their 50-day average; buy at the open, sell at the close.",
+   "stop_pct": 0.015,
+   "summary": {
+    "days": 0
+   },
+   "last_day_return": null,
+   "equity": [],
+   "trades": [],
+   "last_trade_date": null,
+   "last_trades": [],
+   "pending": [
+    {
+     "symbol": "ATHERENERG",
+     "ref_close": 1945.0,
+     "alloc": 15000.0,
+     "est_qty": 7
+    },
+    {
+     "symbol": "DIVISLAB",
+     "ref_close": 11442.0,
+     "alloc": 15000.0,
+     "est_qty": 1
+    },
+    {
+     "symbol": "KALYANKJIL",
+     "ref_close": 697.0,
+     "alloc": 15000.0,
+     "est_qty": 21
+    },
+    {
+     "symbol": "LAURUSLABS",
+     "ref_close": 2424.0,
+     "alloc": 15000.0,
+     "est_qty": 6
+    },
+    {
+     "symbol": "INDIGO",
+     "ref_close": 5587.3,
+     "alloc": 15000.0,
+     "est_qty": 2
+    }
+   ],
+   "open_positions": []
+  }
+ },
+ "benchmark": {
+  "symbol": "NIFTYBEES",
+  "value": null,
+  "return": null,
+  "last_day_return": null
+ },
+ "gate": {
+  "strategy": "breakout_fade",
+  "items": [
+   {
+    "pass": false,
+    "text": "At least 60 paper sessions (so far 0)"
+   },
+   {
+    "pass": false,
+    "text": "Net profit after all charges (so far Rs +0)"
+   },
+   {
+    "pass": false,
+    "text": "Profit factor of 1.2 or better (no trades yet)"
+   },
+   {
+    "pass": false,
+    "text": "Worst fall from peak under 10% (so far 0.0%)"
+   },
+   {
+    "pass": false,
+    "text": "Ahead of simply holding the Nifty 50 ETF over the same period"
+   }
+  ],
+  "verdict": "Not ready for real money. Keep it on paper."
+ }
+}
