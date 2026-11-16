@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-11-16 03:57 IST",
+ "generated_at": "2026-11-16 23:41 IST",
  "data_through": "2026-11-13",
  "next_session": "2026-11-16",
  "paper_start": "2026-11-16",
  "capital": 75000.0,
- "status": "OK",
+ "status": "CHECK",
  "checks": [
   {
    "level": "ok",
-   "text": "Price history: history refreshed."
+   "text": "Price history: history downloaded."
   },
   {
-   "level": "ok",
-   "text": "Data is current: last session on file is Fri 13 Nov 2026."
+   "level": "warn",
+   "text": "Data is behind: last session on file is Fri 13 Nov 2026, expected Mon 16 Nov 2026. Nothing after that date is settled, and the paper orders below are for the session after it."
   }
  ],
  "accounts": {

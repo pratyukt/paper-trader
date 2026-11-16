@@ -1,11 +1,11 @@
 # Paper trading report - data through 2026-11-13
 
-**Status: OK**. Paper money only; no real orders are placed. Each account started with Rs 75,000 on 2026-11-16.
+**Status: CHECK**. Paper money only; no real orders are placed. Each account started with Rs 75,000 on 2026-11-16.
 
 ## Checks
 
-- [OK] Price history: history refreshed.
-- [OK] Data is current: last session on file is Fri 13 Nov 2026.
+- [OK] Price history: history downloaded.
+- [CHECK] Data is behind: last session on file is Fri 13 Nov 2026, expected Mon 16 Nov 2026. Nothing after that date is settled, and the paper orders below are for the session after it.
 
 ## Accounts
 
