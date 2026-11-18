@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-17 23:41 IST",
- "data_through": "2026-11-16",
- "next_session": "2026-11-17",
+ "generated_at": "2026-11-18 23:41 IST",
+ "data_through": "2026-11-17",
+ "next_session": "2026-11-18",
  "paper_start": "2026-11-16",
  "capital": 75000.0,
  "status": "CHECK",
@@ -12,7 +12,7 @@
   },
   {
    "level": "warn",
-   "text": "Data is behind: last session on file is Mon 16 Nov 2026, expected Tue 17 Nov 2026. Nothing after that date is settled, and the paper orders below are for the session after it."
+   "text": "Data is behind: last session on file is Tue 17 Nov 2026, expected Wed 18 Nov 2026. Nothing after that date is settled, and the paper orders below are for the session after it."
   }
  ],
  "accounts": {
@@ -20,29 +20,29 @@
    "plain": "Stocks that closed at a 20-day high on 1.5x volume; sell short at the open, buy back at the close.",
    "stop_pct": 0.05,
    "summary": {
-    "days": 1,
+    "days": 2,
     "years": 0.0027378507871321013,
-    "end_equity": 75865.01986968279,
-    "total_return": 0.011533598262437161,
-    "cagr": 64.92636720555801,
-    "max_drawdown": 0.0,
-    "days_traded": 1,
-    "profitable_days": 1.0,
-    "avg_day": 0.011533598262437161,
-    "worst_day": 0.011533598262437161,
+    "end_equity": 75746.21166968954,
+    "total_return": 0.009949488929193784,
+    "cagr": 36.191914435335995,
+    "max_drawdown": -0.0015660471742752202,
+    "days_traded": 2,
+    "profitable_days": 0.5,
+    "avg_day": 0.0049837755440809706,
+    "worst_day": -0.0015660471742752202,
     "best_day": 0.011533598262437161,
-    "vol_annual": 0.0,
-    "trades": 3,
-    "win_rate": 1.0,
-    "profit_factor": null,
-    "gross_pnl": 910.176285000005,
-    "costs_paid": 45.15641531722329,
-    "net_pnl": 865.0198696827865,
-    "bench_return": 0.003384035724253387,
-    "bench_cagr": 2.434709626068895,
-    "sharpe": null
+    "vol_annual": 0.1039752122659892,
+    "trades": 5,
+    "win_rate": 0.8,
+    "profit_factor": 5.095652892425178,
+    "gross_pnl": 822.5645100000092,
+    "costs_paid": 76.35284031047304,
+    "net_pnl": 746.2116696895391,
+    "bench_return": 0.010326542003907369,
+    "bench_cagr": 41.62444179518067,
+    "sharpe": 12.078950451147282
    },
-   "last_day_return": 0.011533598262437161,
+   "last_day_return": -0.0015660471742752202,
    "equity": [
     {
      "date": "2026-11-16",
@@ -50,6 +50,13 @@
      "pnl": 865.0198696827865,
      "costs": 45.15641531722329,
      "trades": 3.0
+    },
+    {
+     "date": "2026-11-17",
+     "equity": 75746.21166968954,
+     "pnl": -118.8081999932474,
+     "costs": 31.196424993249746,
+     "trades": 2.0
     }
    ],
    "trades": [
@@ -91,62 +98,75 @@
      "costs": 15.50097851832549,
      "net": 415.1286064816769,
      "entry_date": "2026-11-16"
+    },
+    {
+     "date": "2026-11-17",
+     "symbol": "ITC",
+     "side": "short",
+     "qty": 51.0,
+     "entry": 295.0,
+     "exit": 293.45,
+     "exit_reason": "close",
+     "gross": 79.34452500000225,
+     "costs": 15.956701724371946,
+     "net": 63.3878232756303,
+     "entry_date": "2026-11-17"
+    },
+    {
+     "date": "2026-11-17",
+     "symbol": "MAXHEALTH",
+     "side": "short",
+     "qty": 14.0,
+     "entry": 1019.49,
+     "exit": 1031.42,
+     "exit_reason": "close",
+     "gross": -166.956299999998,
+     "costs": 15.2397232688778,
+     "net": -182.19602326887582,
+     "entry_date": "2026-11-17"
     }
    ],
-   "last_trade_date": "2026-11-16",
+   "last_trade_date": "2026-11-17",
    "last_trades": [
     {
-     "date": "2026-11-16",
-     "symbol": "APOLLO",
+     "date": "2026-11-17",
+     "symbol": "ITC",
      "side": "short",
-     "qty": 31.0,
-     "entry": 476.76,
-     "exit": 470.84,
+     "qty": 51.0,
+     "entry": 295.0,
+     "exit": 293.45,
      "exit_reason": "close",
-     "gross": 183.71219999999994,
-     "costs": 15.630525720124801,
-     "net": 168.08167427987513,
-     "entry_date": "2026-11-16"
+     "gross": 79.34452500000225,
+     "costs": 15.956701724371946,
+     "net": 63.3878232756303,
+     "entry_date": "2026-11-17"
     },
     {
-     "date": "2026-11-16",
-     "symbol": "GVT&D",
+     "date": "2026-11-17",
+     "symbol": "MAXHEALTH",
      "side": "short",
-     "qty": 3.0,
-     "entry": 4437.78,
-     "exit": 4339.17,
+     "qty": 14.0,
+     "entry": 1019.49,
+     "exit": 1031.42,
      "exit_reason": "close",
-     "gross": 295.83450000000266,
-     "costs": 14.024911078773002,
-     "net": 281.80958892122965,
-     "entry_date": "2026-11-16"
-    },
-    {
-     "date": "2026-11-16",
-     "symbol": "MEESHO",
-     "side": "short",
-     "qty": 57.0,
-     "entry": 258.87,
-     "exit": 251.32,
-     "exit_reason": "close",
-     "gross": 430.6295850000024,
-     "costs": 15.50097851832549,
-     "net": 415.1286064816769,
-     "entry_date": "2026-11-16"
+     "gross": -166.956299999998,
+     "costs": 15.2397232688778,
+     "net": -182.19602326887582,
+     "entry_date": "2026-11-17"
     }
    ],
    "pending": [
     {
-     "symbol": "ITC",
-     "ref_close": 295.1,
-     "alloc": 15173.0,
-     "est_qty": 51
+     "symbol": "VAML",
+     "ref_close": 397.0,
+     "alloc": 15149.24,
+     "est_qty": 38
     },
     {
-     "symbol": "MAXHEALTH",
-     "ref_close": 1009.9,
-     "alloc": 15173.0,
-     "est_qty": 15
+     "symbol": "GROWW",
+     "ref_close": 227.53,
+     "alloc": 15149.24,
+     "est_qty": 66
     }
    ],
    "open_positions": []
@@ -155,35 +175,42 @@
    "plain": "Strongest 20-day movers above their 50-day average; buy at the open, sell at the close.",
    "stop_pct": 0.015,
    "summary": {
-    "days": 1,
+    "days": 2,
     "years": 0.0027378507871321013,
-    "end_equity": 74558.78357758581,
-    "total_return": -0.005882885632189194,
-    "cagr": -0.8841048323542117,
-    "max_drawdown": -0.005882885632189194,
-    "days_traded": 1,
+    "end_equity": 74245.97890178929,
+    "total_return": -0.010053614642809405,
+    "cagr": -0.9750446302613461,
+    "max_drawdown": -0.010053614642809405,
+    "days_traded": 2,
     "profitable_days": 0.0,
-    "avg_day": -0.005882885632189194,
+    "avg_day": -0.005039147880388062,
     "worst_day": -0.005882885632189194,
-    "best_day": -0.005882885632189194,
-    "vol_annual": 0.0,
-    "trades": 5,
-    "win_rate": 0.2,
-    "profit_factor": 0.3767826204295953,
-    "gross_pnl": -371.85272499999155,
-    "costs_paid": 69.36369741420464,
-    "net_pnl": -441.21642241418886,
-    "bench_return": 0.003384035724253387,
-    "bench_cagr": 2.434709626068895,
-    "sharpe": null
+    "best_day": -0.004195410128586929,
+    "vol_annual": 0.013393921578135218,
+    "trades": 10,
+    "win_rate": 0.4,
+    "profit_factor": 0.3677934022094768,
+    "gross_pnl": -615.7034516249842,
+    "costs_paid": 138.3176465857337,
+    "net_pnl": -754.0210982107092,
+    "bench_return": 0.010326542003907369,
+    "bench_cagr": 41.62444179518067,
+    "sharpe": -94.80907129774235
    },
-   "last_day_return": -0.005882885632189194,
+   "last_day_return": -0.004195410128586929,
    "equity": [
     {
      "date": "2026-11-16",
      "equity": 74558.78357758581,
      "pnl": -441.21642241418886,
      "costs": 69.36369741420464,
+     "trades": 5.0
+    },
+    {
+     "date": "2026-11-17",
+     "equity": 74245.97890178929,
+     "pnl": -312.8046757965203,
+     "costs": 68.95394917152906,
      "trades": 5.0
     }
    ],
@@ -252,106 +279,171 @@
      "costs": 11.784029212898549,
      "net": -190.7401042128968,
      "entry_date": "2026-11-16"
-    }
-   ],
-   "last_trade_date": "2026-11-16",
-   "last_trades": [
+    },
     {
-     "date": "2026-11-16",
+     "date": "2026-11-17",
      "symbol": "ATHERENERG",
      "side": "long",
      "qty": 7.0,
-     "entry": 1946.97,
-     "exit": 1938.63,
-     "exit_reason": "close",
-     "gross": -58.39959999999883,
-     "costs": 14.4474060226944,
-     "net": -72.84700602269322,
-     "entry_date": "2026-11-16"
-    },
-    {
-     "date": "2026-11-16",
-     "symbol": "DIVISLAB",
-     "side": "long",
-     "qty": 1.0,
-     "entry": 11495.74,
-     "exit": 11311.99,
+     "entry": 1940.97,
+     "exit": 1909.94,
      "exit_reason": "stop",
-     "gross": -183.75382499999796,
-     "costs": 12.099954929062049,
-     "net": -195.85377992906,
-     "entry_date": "2026-11-16"
+     "gross": -217.17814999999973,
+     "costs": 14.300904085001099,
+     "net": -231.47905408500083,
+     "entry_date": "2026-11-17"
     },
     {
-     "date": "2026-11-16",
+     "date": "2026-11-17",
      "symbol": "KALYANKJIL",
      "side": "long",
      "qty": 21.0,
-     "entry": 694.35,
-     "exit": 707.8,
-     "exit_reason": "close",
-     "gross": 282.42742499999986,
-     "costs": 15.678317444003547,
-     "net": 266.7491075559963,
-     "entry_date": "2026-11-16"
-    },
-    {
-     "date": "2026-11-16",
-     "symbol": "LAURUSLABS",
-     "side": "long",
-     "qty": 6.0,
-     "entry": 2431.21,
-     "exit": 2392.35,
+     "entry": 707.8,
+     "exit": 696.49,
      "exit_reason": "stop",
-     "gross": -233.17064999999639,
-     "costs": 15.353989805546096,
-     "net": -248.52463980554248,
-     "entry_date": "2026-11-16"
+     "gross": -237.5917766249986,
+     "costs": 15.645115352990766,
+     "net": -253.23689197798936,
+     "entry_date": "2026-11-17"
     },
     {
-     "date": "2026-11-16",
+     "date": "2026-11-17",
+     "symbol": "DIVISLAB",
+     "side": "long",
+     "qty": 1.0,
+     "entry": 11092.54,
+     "exit": 11144.42,
+     "exit_reason": "close",
+     "gross": 51.881500000001324,
+     "costs": 11.822565447711,
+     "net": 40.058934552290324,
+     "entry_date": "2026-11-17"
+    },
+    {
+     "date": "2026-11-17",
+     "symbol": "MAXHEALTH",
+     "side": "long",
+     "qty": 14.0,
+     "entry": 1020.51,
+     "exit": 1030.38,
+     "exit_reason": "close",
+     "gross": 138.24370000000272,
+     "costs": 15.273214176322199,
+     "net": 122.97048582368052,
+     "entry_date": "2026-11-17"
+    },
+    {
+     "date": "2026-11-17",
      "symbol": "INDIGO",
      "side": "long",
      "qty": 2.0,
      "entry": 5597.8,
-     "exit": 5508.32,
+     "exit": 5608.19,
+     "exit_reason": "close",
+     "gross": 20.794000000001688,
+     "costs": 11.912150109504,
+     "net": 8.881849890497689,
+     "entry_date": "2026-11-17"
+    }
+   ],
+   "last_trade_date": "2026-11-17",
+   "last_trades": [
+    {
+     "date": "2026-11-17",
+     "symbol": "ATHERENERG",
+     "side": "long",
+     "qty": 7.0,
+     "entry": 1940.97,
+     "exit": 1909.94,
      "exit_reason": "stop",
-     "gross": -178.95607499999824,
-     "costs": 11.784029212898549,
-     "net": -190.7401042128968,
-     "entry_date": "2026-11-16"
+     "gross": -217.17814999999973,
+     "costs": 14.300904085001099,
+     "net": -231.47905408500083,
+     "entry_date": "2026-11-17"
+    },
+    {
+     "date": "2026-11-17",
+     "symbol": "KALYANKJIL",
+     "side": "long",
+     "qty": 21.0,
+     "entry": 707.8,
+     "exit": 696.49,
+     "exit_reason": "stop",
+     "gross": -237.5917766249986,
+     "costs": 15.645115352990766,
+     "net": -253.23689197798936,
+     "entry_date": "2026-11-17"
+    },
+    {
+     "date": "2026-11-17",
+     "symbol": "DIVISLAB",
+     "side": "long",
+     "qty": 1.0,
+     "entry": 11092.54,
+     "exit": 11144.42,
+     "exit_reason": "close",
+     "gross": 51.881500000001324,
+     "costs": 11.822565447711,
+     "net": 40.058934552290324,
+     "entry_date": "2026-11-17"
+    },
+    {
+     "date": "2026-11-17",
+     "symbol": "MAXHEALTH",
+     "side": "long",
+     "qty": 14.0,
+     "entry": 1020.51,
+     "exit": 1030.38,
+     "exit_reason": "close",
+     "gross": 138.24370000000272,
+     "costs": 15.273214176322199,
+     "net": 122.97048582368052,
+     "entry_date": "2026-11-17"
+    },
+    {
+     "date": "2026-11-17",
+     "symbol": "INDIGO",
+     "side": "long",
+     "qty": 2.0,
+     "entry": 5597.8,
+     "exit": 5608.19,
+     "exit_reason": "close",
+     "gross": 20.794000000001688,
+     "costs": 11.912150109504,
+     "net": 8.881849890497689,
+     "entry_date": "2026-11-17"
     }
    ],
    "pending": [
     {
      "symbol": "ATHERENERG",
-     "ref_close": 1939.6,
-     "alloc": 14911.76,
+     "ref_close": 1908.6,
+     "alloc": 14849.2,
      "est_qty": 7
     },
     {
+     "symbol": "MAXHEALTH",
+     "ref_close": 1030.9,
+     "alloc": 14849.2,
+     "est_qty": 14
+    },
+    {
      "symbol": "KALYANKJIL",
-     "ref_close": 708.15,
-     "alloc": 14911.76,
+     "ref_close": 682.75,
+     "alloc": 14849.2,
      "est_qty": 21
     },
     {
      "symbol": "DIVISLAB",
-     "ref_close": 11080.0,
-     "alloc": 14911.76,
+     "ref_close": 11150.0,
+     "alloc": 14849.2,
      "est_qty": 1
     },
     {
-     "symbol": "MAXHEALTH",
-     "ref_close": 1009.9,
-     "alloc": 14911.76,
-     "est_qty": 14
-    },
-    {
-     "symbol": "INDIGO",
-     "ref_close": 5544.0,
-     "alloc": 14911.76,
-     "est_qty": 2
+     "symbol": "CHOLAFIN",
+     "ref_close": 1884.7,
+     "alloc": 14849.2,
+     "est_qty": 7
     }
    ],
    "open_positions": []
@@ -359,31 +451,31 @@
  },
  "benchmark": {
   "symbol": "NIFTYBEES",
-  "value": 75253.80267931901,
-  "return": 0.003384035724253387,
-  "last_day_return": 0.003384035724253387
+  "value": 75774.49065029305,
+  "return": 0.010326542003907369,
+  "last_day_return": 0.0069190918257362455
  },
  "gate": {
   "strategy": "breakout_fade",
   "items": [
    {
     "pass": false,
-    "text": "At least 60 paper sessions (so far 1)"
+    "text": "At least 60 paper sessions (so far 2)"
    },
    {
     "pass": true,
-    "text": "Net profit after all charges (so far Rs +865)"
+    "text": "Net profit after all charges (so far Rs +746)"
    },
    {
     "pass": true,
-    "text": "Profit factor of 1.2 or better (so far inf)"
+    "text": "Profit factor of 1.2 or better (so far 5.10)"
    },
    {
     "pass": true,
-    "text": "Worst fall from peak under 10% (so far 0.0%)"
+    "text": "Worst fall from peak under 10% (so far 0.2%)"
    },
    {
-    "pass": true,
+    "pass": false,
     "text": "Ahead of simply holding the Nifty 50 ETF over the same period"
    }
   ],
